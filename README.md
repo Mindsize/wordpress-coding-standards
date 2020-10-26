@@ -1,4 +1,4 @@
-# Alley Coding Standards
+# Mindsize Coding Standards
 
 This is a PHPCS ruleset for [Mindsize](https://mindsize.com). Currently only a proof of concept. Heavily inspired by https://github.com/alleyinteractive/alley-coding-standards/
 
@@ -7,7 +7,7 @@ This is a PHPCS ruleset for [Mindsize](https://mindsize.com). Currently only a p
 To use this standard in a project, declare it as a dependency.
 
 ```
-composer require alleyinteractive/alley-coding-standards
+composer require mindsize/wordpress-coding-standards
 ```
 
 This will install the latest compatible version of PHPCS, WPCS, and VIPCS to your vendor directory in order to run sniffs locally.
@@ -16,7 +16,7 @@ You can also manually add this to your project's composer.json file as part of t
 
 ```
 "require": {
-    "alleyinteractive/alley-coding-standards": "^0.2.0"
+    "mindsize/wordpress-coding-standards": "^0.2.0" // or some other tag
 }
 ```
 
